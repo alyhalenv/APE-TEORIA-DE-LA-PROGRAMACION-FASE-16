@@ -34,6 +34,6 @@
     • <b>Soporte en traducción y refactorización:</b> Consultas puntuales ante dificultades en la adaptación de la lógica de matrices entre los lenguajes Java y Python.<br>
     <i>(Cabe destacar que la traducción se realizó y comprendió de manera manual e independiente).</i><br>
     • <b>Estructuración de documentación:</b> Diseño, maquetación y formateo visual de las guías en Markdown.<br><br>
-    <i>Desarrollado para la presentación del Aprendizaje Práctico Experimental.</i>
+    <i>Desarrollado para la presentación del Aprendizaje Práctico Experimental #016.</i>
   </sub>
 </div>
