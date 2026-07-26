@@ -1,58 +1,20 @@
-# 🧮 Operaciones con Matrices (2x3) en C, Java y Python
+# 🧮 Operaciones con Matrices ($2 \times 3$)
 
-¡Bienvenido! Selecciona un lenguaje para ir directamente a su código y prueba de ejecución en consola:
-
-- 🔵 [Ver solución en C](#-implementación-en-c)
-- 🔴 [Ver solución en Java](#-implementación-en-java)
-- 🟢 [Ver solución en Python](#-implementación-en-python)
+¡Bienvenido al repositorio! En este proyecto se presenta la implementación de la **suma, resta y multiplicación** de matrices de $2 \times 3$, analizando y comparando la sintaxis en tres lenguajes distintos.
 
 ---
 
-## 🔵 Implementación en C
+## 🚀 Selecciona el lenguaje que deseas explorar:
 
-📄 **Archivo:** [`lenguaje.c`](./lenguaje.c)
-
-```c
-// Aquí pegas tu código de C
-```
-
-> 🖥️ **Validación en Terminal (C):**
-> ```text
-> OPERACIONES CON MATRICES DE 2 FILAS EN 3 COLUMNAS :
-> VALORES PARA LA MATRIZ A:
-> ...
-> RESPUESTA SUMA:
-> [  8] [  4] [  6]
-> ```
+| Lenguaje | Estado | Enlace al Directorio |
+| :--- | :--- | :--- |
+| **🔵 C** | Finalizado | [👉 Explorar código y terminal en C](./c/) |
+| **🔴 Java** | Finalizado | [👉 Explorar código y terminal en Java](./java/) |
+| **🟢 Python** | Finalizado | [👉 Explorar código y terminal en Python](./python/) |
 
 ---
 
-## 🔴 Implementación en Java
-
-📄 **Archivo:** [`Lenguaje.java`](./Lenguaje.java)
-
-```java
-// Aquí pegas tu código de Java
-```
-
-> 🖥️ **Validación en Terminal (Java):**
-> ```text
-> OPERACIONES CON MATRICES DE 2 FILAS EN 3 COLUMNAS :
-> ...
-> ```
-
----
-
-## 🟢 Implementación en Python
-
-📄 **Archivo:** [`lenguaje.py`](./lenguaje.py)
-
-```python
-# Aquí pegas tu código de Python
-```
-
-> 🖥️ **Validación en Terminal (Python):**
-> ```text
-> OPERACIONES CON MATRICES DE 2 FILAS EN 3 COLUMNAS :
-> ...
-> ```
+### 📌 Características del Proyecto
+- Creación e inicialización dinámica de matrices $2 \times 3$.
+- Funciones modulares para `completar`, `suma`, `resta`, `multiplicacion` y `mostrar`.
+- Salida formateada y alineada en la terminal.
