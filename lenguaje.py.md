@@ -2,7 +2,7 @@
 
 # 🟢 Solución e Implementación en Python
 
-Implementación limpia en Python 3 utilizando inicialización segura mediante *list comprehensions*, f-strings para captura de datos y formateo `%3d` para la alineación tabular.
+En esta sección se presenta el código desarrollado en el lenguaje **Python**, acompañado de su respectiva comprobación y salida en terminal.
 
 ---
 
