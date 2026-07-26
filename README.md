@@ -35,5 +35,6 @@
     <i>(Cabe destacar que la traducción se realizó y comprendió de manera manual e independiente).</i><br>
     • <b>Estructuración de documentación:</b> Diseño, maquetación y formateo visual de las guías en Markdown.<br><br>
     <i>Desarrollado para la presentación del Aprendizaje Práctico Experimental #016.</i>
+    <i>ALVARO YHALEN VILLAFUERTE CONDOY.</i>
   </sub>
 </div>
