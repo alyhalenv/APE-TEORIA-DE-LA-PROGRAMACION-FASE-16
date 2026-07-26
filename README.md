@@ -1,20 +1,13 @@
-# 🧮 Operaciones con Matrices ($2 \times 3$)
+# 🧮 Operaciones con Matrices (2x3)
 
-¡Bienvenido al repositorio! En este proyecto se presenta la implementación de la **suma, resta y multiplicación** de matrices de $2 \times 3$, analizando y comparando la sintaxis en tres lenguajes distintos.
-
----
-
-## 🚀 Selecciona el lenguaje que deseas explorar:
-
-| Lenguaje | Estado | Enlace al Directorio |
-| :--- | :--- | :--- |
-| **🔵 C** | Finalizado | [👉 Explorar código y terminal en C](./c/) |
-| **🔴 Java** | Finalizado | [👉 Explorar código y terminal en Java](./java/) |
-| **🟢 Python** | Finalizado | [👉 Explorar código y terminal en Python](./python/) |
+Este repositorio contiene la solución e implementación de operaciones básicas con matrices de $2 \times 3$ (**suma, resta y multiplicación**), comparando su sintaxis en tres lenguajes distintos.
 
 ---
 
-### 📌 Características del Proyecto
-- Creación e inicialización dinámica de matrices $2 \times 3$.
-- Funciones modulares para `completar`, `suma`, `resta`, `multiplicacion` y `mostrar`.
-- Salida formateada y alineada en la terminal.
+## 📁 Directorio del Proyecto
+
+Haz clic en el archivo del lenguaje que desees consultar para ver su **código fuente** y la **verificación en terminal** integrada en los comentarios del propio archivo:
+
+* 🔵 [Ver código y terminal en C (`lenguaje.c`)](./lenguaje.c)
+* 🔴 [Ver código y terminal en Java (`lenguaje.java`)](./lenguaje.java)
+* 🟢 [Ver código y terminal en Python (`lenguaje.py`)](./lenguaje.py)
