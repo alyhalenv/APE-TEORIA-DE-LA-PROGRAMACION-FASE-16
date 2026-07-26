@@ -12,32 +12,25 @@ Implementación limpia en Python 3 utilizando inicialización segura mediante *l
 filas = 2
 columnas = 3
 
-
-def completar(matriz):
+def completar (matriz):
     for a in range(filas):
         for b in range(columnas):
-            matriz[a][b] = int(
-                input(f"COLOQUE EL DATO PARA SU POSICION [{a}][{b}]: ")
-            )
+            matriz[a][b]= int(input(f"COLOQUE EL DATO PARA SU POSICION [{a}][{b}]: "))
 
-
-def suma(matriz1, matriz2, resultado):
+def suma (matriz1, matriz2 ,resultado):
     for a in range(filas):
         for b in range(columnas):
-            resultado[a][b] = matriz1[a][b] + matriz2[a][b]
+            resultado[a][b]=matriz1[a][b] + matriz2[a][b]
 
-
-def resta(matriz1, matriz2, resultado):
+def resta (matriz1, matriz2 ,resultado):
     for a in range(filas):
         for b in range(columnas):
-            resultado[a][b] = matriz1[a][b] - matriz2[a][b]
+            resultado[a][b]=matriz1[a][b] - matriz2[a][b]
 
-
-def multiplicacion(matriz1, matriz2, resultado):
+def multiplicacion (matriz1, matriz2 ,resultado):
     for a in range(filas):
         for b in range(columnas):
-            resultado[a][b] = matriz1[a][b] * matriz2[a][b]
-
+            resultado[a][b]=matriz1[a][b] * matriz2[a][b]
 
 def mostrar(matriz):
     for a in range(filas):
@@ -45,19 +38,19 @@ def mostrar(matriz):
             print("[%3d]" % matriz[a][b], end=" ")
         print()
 
+matrizA=[[0]*columnas for _ in range(filas)]
+matrizB=[[0]*columnas for _ in range(filas)]
+resSuma=[[0]*columnas for _ in range(filas)]
+resResta=[[0]*columnas for _ in range(filas)]
+resMult=[[0]*columnas for _ in range(filas)]
 
-matrizA = [[0] * columnas for _ in range(filas)]
-matrizB = [[0] * columnas for _ in range(filas)]
-resSuma = [[0] * columnas for _ in range(filas)]
-resResta = [[0] * columnas for _ in range(filas)]
-resMult = [[0] * columnas for _ in range(filas)]
 
 print("\n OPERACIONES CON MATRICES DE 2 FILAS EN 3 COLUMNAS :\n")
-
+    
 print("\nVALORES PARA LA MATRIZ A:\n")
 print("------------------------------\n")
 completar(matrizA)
-
+    
 print("\nVALORES PARA LA MATRIZ B:\n")
 print("------------------------------\n")
 completar(matrizB)
@@ -71,7 +64,6 @@ mostrar(resSuma)
 
 print("\nRESPUESTA RESTA:\n")
 mostrar(resResta)
-
 print("\nRESPUESTA MULTIPLICACION:\n")
 mostrar(resMult)
 ```
