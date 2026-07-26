@@ -2,7 +2,7 @@
 
 # 🔴 Solución e Implementación en Java
 
-Implementación orientada a objetos estructurada mediante métodos estáticos, la clase `Scanner` para lectura de datos y `System.out.printf` para alineación visual.
+En esta sección se presenta el código desarrollado en el lenguaje **Java**, acompañado de su respectiva comprobación y salida en terminal.
 
 ---
 
