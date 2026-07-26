@@ -2,7 +2,7 @@
 
 # 🔵 Solución e Implementación en C
 
-Implementación de matrices de $2 \times 3$ utilizando arrays bidimensionales nativos, paso por referencia e impresión formateada en consola mediante `printf`.
+En esta sección se presenta el código desarrollado en el lenguaje **C**, acompañado de su respectiva comprobación y salida en terminal.
 
 ---
 
