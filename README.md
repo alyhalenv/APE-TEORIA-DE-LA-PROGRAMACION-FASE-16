@@ -27,20 +27,13 @@
 | 🟢 **Python** | `Completado` | [👉 Abrir `lenguaje.py.md`](./lenguaje.py.md) |
 
 ---
-
-<div align="center">
-  <sub>Desarrollado para la presentación del Aprendizaje Práctico Experimental.</sub>
-  
 <div align="center">
   <sub>
-    <i>Desarrollado para la presentación del Aprendizaje Práctico Experimental.</i>
-    <b>🤖 Declaración de Uso de IA</b><br>
+    <b>🤖 Declaración de Uso de IA</b><br><br>
     Se utilizó asistencia de Inteligencia Artificial como herramienta de apoyo para:<br>
-    • <b>Soporte en traducción y refactorización:</b> Consultas en algunas dificultades para la daptación de la lógica de matrices entre los lenguajes Java y Python.
-    (Importante destacar que se realizo y comprendio la traducción de manera manual e independiente).<br>
+    • <b>Soporte en traducción y refactorización:</b> Consultas puntuales ante dificultades en la adaptación de la lógica de matrices entre los lenguajes Java y Python.<br>
+    <i>(Cabe destacar que la traducción se realizó y comprendió de manera manual e independiente).</i><br>
     • <b>Estructuración de documentación:</b> Diseño, maquetación y formateo visual de las guías en Markdown.<br><br>
-  
+    <i>Desarrollado para la presentación del Aprendizaje Práctico Experimental.</i>
   </sub>
-</div>
-
 </div>
