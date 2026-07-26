@@ -30,7 +30,15 @@
 
 <div align="center">
   <sub>Desarrollado para la presentación del Aprendizaje Práctico Experimental.</sub>
-  Se utilizó asistencia de Inteligencia Artificial como herramienta de apoyo para:
-* **Soporte en traducción y refactorización:** Adaptación de la lógica de matrices entre los lenguajes C, Java y Python.
-* **Estructuración de documentación:** Diseño, maquetación y formateo visual de las guías en Markdown.
+  
+<div align="center">
+  <sub>
+    <b>🤖 Declaración de Uso de IA</b><br>
+    Se utilizó asistencia de Inteligencia Artificial como herramienta de apoyo para:<br>
+    • <b>Soporte en traducción y refactorización:</b> Adaptación de la lógica de matrices entre los lenguajes C, Java y Python.<br>
+    • <b>Estructuración de documentación:</b> Diseño, maquetación y formateo visual de las guías en Markdown.<br><br>
+    <i>Desarrollado para la presentación del Aprendizaje Práctico Experimental.</i>
+  </sub>
+</div>
+
 </div>
