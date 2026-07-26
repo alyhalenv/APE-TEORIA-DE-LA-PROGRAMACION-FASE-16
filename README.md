@@ -14,7 +14,7 @@
 </div>
 
 > [!NOTE]  
-> **Directorio del Proyecto:** Selecciona cualquiera de los archivos de lenguaje a continuación para consultar su **código fuente** y la **validación en terminal**.
+> **Directorio del Proyecto:** Bienvienid@, seleccione cualquiera de los archivos de lenguaje a continuación para consultar su **código fuente** y la **validación en terminal**.
 
 ---
 
@@ -29,5 +29,8 @@
 ---
 
 <div align="center">
-  <sub>Desarrollado como proyecto de análisis de estructuras de datos bidimensionales.</sub>
+  <sub>Desarrollado para la presentación del Aprendizaje Práctico Experimental.</sub>
+  Se utilizó asistencia de Inteligencia Artificial como herramienta de apoyo para:
+* **Soporte en traducción y refactorización:** Adaptación de la lógica de matrices entre los lenguajes C, Java y Python.
+* **Estructuración de documentación:** Diseño, maquetación y formateo visual de las guías en Markdown.
 </div>
