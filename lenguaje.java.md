@@ -11,7 +11,7 @@ Implementación orientada a objetos estructurada mediante métodos estáticos, l
 ```java
 import java.util.Scanner;
 public class operacionesMatrices{
-    //Constantes definidas
+
     public static final int filas = 2;
     public static final int columnas = 3;
 
@@ -55,8 +55,6 @@ public class operacionesMatrices{
         System.out.print("\n");
     }   
     }
-
-
     public static void main(String[] args){
         int[][] matrizA = new int [filas][columnas];
         int[][] matrizB = new int [filas][columnas];
@@ -86,8 +84,6 @@ public class operacionesMatrices{
 
         System.out.print("\nRESPUESTA MULTIPLICACION:\n");
         mostrar(resMult);
-
-        
     }
 }
 ```
