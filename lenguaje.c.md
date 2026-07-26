@@ -91,37 +91,41 @@ int main() {
 ## 🖥️ Verificación en Terminal
 
 ```text
+PS C:\Users\alvar\OneDrive\Datos adjuntos\Documentos\UNL ALVARO\TEORIA DE LA PROGRAMACION\PROGRAMAS C> gcc apefinal.c -o apefinal                           
+PS C:\Users\alvar\OneDrive\Datos adjuntos\Documentos\UNL ALVARO\TEORIA DE LA PROGRAMACION\PROGRAMAS C> .\apefinal.exe                                       
+                                                                                                                  
  OPERACIONES CON MATRICES DE 2 FILAS EN 3 COLUMNAS :
 
 VALORES PARA LA MATRIZ A:
 ------------------------------
-COLOQUE EL DATO PARA SU POSICION [0][0]: 5
-COLOQUE EL DATO PARA SU POSICION [0][1]: 2
+COLOQUE EL DATO PARA SU POSICION [0][0]: 6 
+COLOQUE EL DATO PARA SU POSICION [0][1]: 5
 COLOQUE EL DATO PARA SU POSICION [0][2]: 4
-COLOQUE EL DATO PARA SU POSICION [1][0]: 2
-COLOQUE EL DATO PARA SU POSICION [1][1]: 6
-COLOQUE EL DATO PARA SU POSICION [1][2]: 4
+COLOQUE EL DATO PARA SU POSICION [1][0]: 3
+COLOQUE EL DATO PARA SU POSICION [1][1]: 2
+COLOQUE EL DATO PARA SU POSICION [1][2]: 1
 
 VALORES PARA LA MATRIZ B:
 ------------------------------
-COLOQUE EL DATO PARA SU POSICION [0][0]: 3
+COLOQUE EL DATO PARA SU POSICION [0][0]: 1
 COLOQUE EL DATO PARA SU POSICION [0][1]: 2
-COLOQUE EL DATO PARA SU POSICION [0][2]: 2
-COLOQUE EL DATO PARA SU POSICION [1][0]: 3
-COLOQUE EL DATO PARA SU POSICION [1][1]: 3
-COLOQUE EL DATO PARA SU POSICION [1][2]: 3
+COLOQUE EL DATO PARA SU POSICION [0][2]: 3
+COLOQUE EL DATO PARA SU POSICION [1][0]: 4
+COLOQUE EL DATO PARA SU POSICION [1][1]: 5
+COLOQUE EL DATO PARA SU POSICION [1][2]: 6
 
 RESPUESTA SUMA:
-[  8][  4][  6]
-[  5][  9][  7]
+[7]     [7]     [7]
+[7]     [7]     [7]
 
 RESPUESTA RESTA:
-[  2][  0][  2]
-[ -1][  3][  1]
+[5]     [3]     [1]
+[-1]    [-3]    [-5]
 
 RESPUESTA MULTIPLICACION:
-[ 15][  4][  8]
-[  6][ 18][ 12]
+[6]     [10]    [12]
+[12]    [10]    [6]
+PS C:\Users\alvar\OneDrive\Datos adjuntos\Documentos\UNL ALVARO\TEORIA DE LA PROGRAMACION\PROGRAMAS C> 
 ```
 
 ---
