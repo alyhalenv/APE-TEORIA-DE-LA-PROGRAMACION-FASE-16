@@ -73,30 +73,48 @@ mostrar(resMult)
 ## 🖥️ Verificación en Terminal
 
 ```text
+PS C:\Users\alvar\OneDrive\Datos adjuntos\Documentos\UNL ALVARO\TEORIA DE LA PROGRAMACION\PROGRAMAS PY> & C:\Users\alvar\AppData\Local\Programs\Python\Python313\python.exe "c:/Users/alvar/OneDrive/Datos adjuntos/Documentos/UNL ALVARO/TEORIA DE LA PROGRAMACION/PROGRAMAS PY/apefinal.py"
+
  OPERACIONES CON MATRICES DE 2 FILAS EN 3 COLUMNAS :
+
 
 VALORES PARA LA MATRIZ A:
 
 ------------------------------
 
-COLOQUE EL DATO PARA SU POSICION [0][0]: 5
-COLOQUE EL DATO PARA SU POSICION [0][1]: 2
-...
+COLOQUE EL DATO PARA SU POSICION [0][0]: 45
+COLOQUE EL DATO PARA SU POSICION [0][1]: 12
+COLOQUE EL DATO PARA SU POSICION [0][2]: 67
+COLOQUE EL DATO PARA SU POSICION [1][0]: 23
+COLOQUE EL DATO PARA SU POSICION [1][1]: 11
+COLOQUE EL DATO PARA SU POSICION [1][2]: 24
+
+VALORES PARA LA MATRIZ B:
+
+------------------------------
+
+COLOQUE EL DATO PARA SU POSICION [0][0]: 20
+COLOQUE EL DATO PARA SU POSICION [0][1]: 0
+COLOQUE EL DATO PARA SU POSICION [0][2]: 14
+COLOQUE EL DATO PARA SU POSICION [1][0]: 8
+COLOQUE EL DATO PARA SU POSICION [1][1]: 9
+COLOQUE EL DATO PARA SU POSICION [1][2]: 154
 
 RESPUESTA SUMA:
 
-[  8] [  4] [  6] 
-[  5] [  9] [  7] 
+[ 65] [ 12] [ 81] 
+[ 31] [ 20] [178] 
 
 RESPUESTA RESTA:
 
-[  2] [  0] [  2] 
-[ -1] [  3] [  1] 
+[ 25] [ 12] [ 53] 
+[ 15] [  2] [-130] 
 
 RESPUESTA MULTIPLICACION:
 
-[ 15] [  4] [  8] 
-[  6] [ 18] [ 12] 
+[900] [  0] [938] 
+[184] [ 99] [3696] 
+PS C:\Users\alvar\OneDrive\Datos adjuntos\Documentos\UNL ALVARO\TEORIA DE LA PROGRAMACION\PROGRAMAS PY> 
 ```
 
 ---
