@@ -10,67 +10,69 @@ Implementación de matrices de $2 \times 3$ utilizando arrays bidimensionales na
 
 ```c
 #include <stdio.h>
+const int filas = 2;
+const int columnas = 3;
 
-#define FILAS 2
-#define COLUMNAS 3
-
-void completar(int matriz[FILAS][COLUMNAS]) {
-    for(int a = 0; a < FILAS; a++) {
-        for(int b = 0; b < COLUMNAS; b++) {
-            printf("COLOQUE EL DATO PARA SU POSICION [%d][%d]: ", a, b);
-            scanf("%d", &matriz[a][b]);
-        }
+void completar(int matriz[filas][columnas]){
+    for (int a = 0; a < filas; a++){     
+        for (int b = 0; b < columnas; b++){  
+            printf("COLOQUE EL DATO PARA SU POSICION [%i][%i]: ", a, b);
+            scanf("%i", &matriz[a][b]);
+        } 
     }
 }
 
-void suma(int matriz1[FILAS][COLUMNAS], int matriz2[FILAS][COLUMNAS], int resultado[FILAS][COLUMNAS]) {
-    for(int a = 0; a < FILAS; a++) {
-        for(int b = 0; b < COLUMNAS; b++) {
+void suma(int matriz1[filas][columnas], int matriz2[filas][columnas], int resultado[filas][columnas]){
+    for (int a = 0; a < filas; a++){     
+        for (int b = 0; b < columnas; b++){
             resultado[a][b] = matriz1[a][b] + matriz2[a][b];
         }
     }
 }
 
-void resta(int matriz1[FILAS][COLUMNAS], int matriz2[FILAS][COLUMNAS], int resultado[FILAS][COLUMNAS]) {
-    for(int a = 0; a < FILAS; a++) {
-        for(int b = 0; b < COLUMNAS; b++) {
+void resta(int matriz1[filas][columnas], int matriz2[filas][columnas], int resultado[filas][columnas]){
+    for (int a = 0; a < filas; a++){     
+        for (int b = 0; b < columnas; b++){
             resultado[a][b] = matriz1[a][b] - matriz2[a][b];
         }
     }
 }
 
-void multiplicacion(int matriz1[FILAS][COLUMNAS], int matriz2[FILAS][COLUMNAS], int resultado[FILAS][COLUMNAS]) {
-    for(int a = 0; a < FILAS; a++) {
-        for(int b = 0; b < COLUMNAS; b++) {
+void multiplicacion(int matriz1[filas][columnas], int matriz2[filas][columnas], int resultado[filas][columnas]){
+    for (int a = 0; a < filas; a++){     
+        for (int b = 0; b < columnas; b++){
             resultado[a][b] = matriz1[a][b] * matriz2[a][b];
         }
     }
 }
 
-void mostrar(int matriz[FILAS][COLUMNAS]) {
-    for(int a = 0; a < FILAS; a++) {
-        for(int b = 0; b < COLUMNAS; b++) {
-            printf("[%3d]", matriz[a][b]);
+void mostrar(int matriz[filas][columnas]){
+    for (int a = 0; a < filas; a++){     
+        for (int b = 0; b < columnas; b++){
+            printf("[%i]\t", matriz[a][b]);
         }
         printf("\n");
     }
 }
 
 int main() {
-    int matrizA[FILAS][COLUMNAS], matrizB[FILAS][COLUMNAS];
-    int resSuma[FILAS][COLUMNAS], resResta[FILAS][COLUMNAS], resMult[FILAS][COLUMNAS];
+    int matrizA[filas][columnas], matrizB[filas][columnas];
+    int resSuma[filas][columnas], resResta[filas][columnas], resMult[filas][columnas];
 
-    printf("\n OPERACIONES CON MATRICES DE 2 FILAS EN 3 COLUMNAS :\n\n");
-    printf("VALORES PARA LA MATRIZ A:\n------------------------------\n");
+    printf("\n OPERACIONES CON MATRICES DE 2 FILAS EN 3 COLUMNAS :\n");
+    
+    printf("\nVALORES PARA LA MATRIZ A:\n");
+    printf("------------------------------\n");
     completar(matrizA);
-
-    printf("\nVALORES PARA LA MATRIZ B:\n------------------------------\n");
+    
+    printf("\nVALORES PARA LA MATRIZ B:\n");
+    printf("------------------------------\n");
     completar(matrizB);
-
+    
     suma(matrizA, matrizB, resSuma);
     resta(matrizA, matrizB, resResta);
     multiplicacion(matrizA, matrizB, resMult);
-
+    
     printf("\nRESPUESTA SUMA:\n");
     mostrar(resSuma);
 
