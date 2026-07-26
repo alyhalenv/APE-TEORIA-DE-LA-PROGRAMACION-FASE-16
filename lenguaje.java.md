@@ -10,80 +10,84 @@ Implementación orientada a objetos estructurada mediante métodos estáticos, l
 
 ```java
 import java.util.Scanner;
+public class operacionesMatrices{
+    //Constantes definidas
+    public static final int filas = 2;
+    public static final int columnas = 3;
 
-public class lenguaje {
-    static final int FILAS = 2;
-    static final int COLUMNAS = 3;
-    static Scanner scanner = new Scanner(System.in);
-
-    public static void completar(int[][] matriz) {
-        for (int a = 0; a < FILAS; a++) {
-            for (int b = 0; b < COLUMNAS; b++) {
-                System.out.print("COLOQUE EL DATO PARA SU POSICION [" + a + "][" + b + "]: ");
-                matriz[a][b] = scanner.nextInt();
+    public static void completar(int[][] matriz){
+        Scanner entrada = new Scanner(System.in);
+        for(int a = 0;a < filas;a++){
+            for(int b = 0; b < columnas; b++){
+                System.out.printf("COLOQUE EL DATO PARA SU POSICION[%d][%d]: ",a,b);
+                matriz[a][b] = entrada.nextInt();
             }
         }
     }
 
-    public static void suma(int[][] matriz1, int[][] matriz2, int[][] resultado) {
-        for (int a = 0; a < FILAS; a++) {
-            for (int b = 0; b < COLUMNAS; b++) {
+    public static void suma(int[][] matriz1, int[][] matriz2, int[][]resultado){
+        for (int a = 0; a < filas; a++){     
+            for (int b = 0; b < columnas; b++){
                 resultado[a][b] = matriz1[a][b] + matriz2[a][b];
             }
         }
     }
 
-    public static void resta(int[][] matriz1, int[][] matriz2, int[][] resultado) {
-        for (int a = 0; a < FILAS; a++) {
-            for (int b = 0; b < COLUMNAS; b++) {
+    public static void resta(int[][] matriz1, int[][] matriz2, int[][]resultado){
+        for (int a = 0; a < filas; a++){     
+            for (int b = 0; b < columnas; b++){
                 resultado[a][b] = matriz1[a][b] - matriz2[a][b];
             }
         }
     }
-
-    public static void multiplicacion(int[][] matriz1, int[][] matriz2, int[][] resultado) {
-        for (int a = 0; a < FILAS; a++) {
-            for (int b = 0; b < COLUMNAS; b++) {
+    public static void multiplicar(int[][] matriz1, int[][] matriz2, int[][]resultado){
+        for (int a = 0; a < filas; a++){     
+            for (int b = 0; b < columnas; b++){
                 resultado[a][b] = matriz1[a][b] * matriz2[a][b];
             }
         }
     }
-
-    public static void mostrar(int[][] matriz) {
-        for (int a = 0; a < FILAS; a++) {
-            for (int b = 0; b < COLUMNAS; b++) {
-                System.out.printf("[%3d]", matriz[a][b]);
+    public static void mostrar(int[][]matriz){
+        for (int a = 0; a < filas; a++){     
+            for (int b = 0; b < columnas; b++){
+                System.out.printf("[%d]\t", matriz[a][b]);
             }
-            System.out.println();
-        }
+        System.out.print("\n");
+    }   
     }
 
-    public static void main(String[] args) {
-        int[][] matrizA = new int[FILAS][COLUMNAS];
-        int[][] matrizB = new int[FILAS][COLUMNAS];
-        int[][] resSuma = new int[FILAS][COLUMNAS];
-        int[][] resResta = new int[FILAS][COLUMNAS];
-        int[][] resMult = new int[FILAS][COLUMNAS];
 
-        System.out.println("\n OPERACIONES CON MATRICES DE 2 FILAS EN 3 COLUMNAS :\n");
-        System.out.println("VALORES PARA LA MATRIZ A:\n------------------------------");
+    public static void main(String[] args){
+        int[][] matrizA = new int [filas][columnas];
+        int[][] matrizB = new int [filas][columnas];
+        int[][]resSuma = new int [filas][columnas];
+        int[][]resResta = new int [filas][columnas];
+        int[][]resMult = new int [filas][columnas];
+        
+        System.out.print("\n OPERACIONES CON MATRICES DE 2 FILAS EN 3 COLUMNAS: \n");
+
+        System.out.print("\nVALORES PARA LA MATRIZ A:\n");
+        System.out.print("------------------------------\n");
         completar(matrizA);
 
-        System.out.println("\nVALORES PARA LA MATRIZ B:\n------------------------------");
+        System.out.print("\nVALORES PARA LA MATRIZ B:\n");
+        System.out.print("------------------------------\n");
         completar(matrizB);
 
         suma(matrizA, matrizB, resSuma);
         resta(matrizA, matrizB, resResta);
-        multiplicacion(matrizA, matrizB, resMult);
+        multiplicar(matrizA, matrizB, resMult);
 
-        System.out.println("\nRESPUESTA SUMA:");
+        System.out.print("\nRESPUESTA SUMA:\n");
         mostrar(resSuma);
 
-        System.out.println("\nRESPUESTA RESTA:");
+        System.out.print("\nRESPUESTA RESTA:\n");
         mostrar(resResta);
 
-        System.out.println("\nRESPUESTA MULTIPLICACION:");
+        System.out.print("\nRESPUESTA MULTIPLICACION:\n");
         mostrar(resMult);
+
+        
     }
 }
 ```
