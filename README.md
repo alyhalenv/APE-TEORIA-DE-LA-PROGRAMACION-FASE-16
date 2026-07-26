@@ -8,6 +8,6 @@ Este repositorio contiene la solución e implementación de operaciones básicas
 
 Haz clic en el archivo del lenguaje que desees consultar para ver su **código fuente** y la **verificación en terminal** integrada en los comentarios del propio archivo:
 
-* 🔵 [Ver código y terminal en C (`lenguaje.c`)](./lenguaje.c)
-* 🔴 [Ver código y terminal en Java (`lenguaje.java`)](./lenguaje.java)
-* 🟢 [Ver código y terminal en Python (`lenguaje.py`)](./lenguaje.py)
+* 🔵 [Ver código y terminal en C (`lenguaje.c`)](./lenguaje.c.md)
+* 🔴 [Ver código y terminal en Java (`lenguaje.java`)](./lenguaje.java.md)
+* 🟢 [Ver código y terminal en Python (`lenguaje.py`)](./lenguaje.py.md)
