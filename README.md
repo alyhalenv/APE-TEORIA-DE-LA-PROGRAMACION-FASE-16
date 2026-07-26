@@ -30,7 +30,7 @@
 <div align="center">
   <sub>
     <b>🤖 Declaración de Uso de IA</b><br><br>
-    Se utilizó asistencia de Inteligencia Artificial como herramienta de apoyo para:<br>
+    Se utilizó asistencia de Inteligencia Artificial (Gemini Google 2026) como herramienta de apoyo para:<br>
     • <b>Soporte en traducción y refactorización:</b> Consultas puntuales ante dificultades en la adaptación de la lógica de matrices entre los lenguajes Java y Python.<br>
     <i>(Cabe destacar que la traducción se realizó y comprendió de manera manual e independiente).</i><br>
     • <b>Estructuración de documentación:</b> Diseño, maquetación y formateo visual de las guías en Markdown.<br><br>
